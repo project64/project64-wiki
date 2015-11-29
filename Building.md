@@ -20,8 +20,7 @@ Use the following MSBuild properties to set the platform, configuration, and too
 * Configuration<br/>
   Either Debug or Release. It will determine either to use code optimizations or produce debugging information.
 * PlatformToolset<br/>
-  Compiler collection to use. Default is v140_xp (Visual Studio 2015 with Windows XP support).<br/>
-  Other accepted values/versions: v140, v120, v120_xp, v110, v110_xp, v100, v90 (Note: You need to have the corresponding Visual Studio version installed).
+  Compiler collection to use. Accepted values are: v140_xp, v140, v120, v120_xp, v110, v110_xp, v100, v90 (Note: You need to have the corresponding Visual Studio version installed).
 
 Sample comand to build Project64, Release|x64 variant for MSVC 14 without XP support:
 ```

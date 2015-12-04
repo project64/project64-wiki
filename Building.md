@@ -11,7 +11,7 @@ In a command prompt enter:
 ```
 MSBuild.exe Project64.sln
 ```
-This will build the Debug|Win32 variant, using the Visual Studio 2015 (MSVC 14) compiler toolset.
+This will build the Debug|Win32 variant, using the Visual Studio 2015 (MSVC 14) compiler tool set.
 
 ## Specific builds
 Use the following MSBuild properties to set the platform, configuration, and tool set for the build:
@@ -22,7 +22,7 @@ Use the following MSBuild properties to set the platform, configuration, and too
 * PlatformToolset<br/>
   Compiler collection to use. Accepted values are: v140_xp, v140, v120, v120_xp, v110, v110_xp, v100, v90 (Note: You need to have the corresponding Visual Studio version installed).
 
-Sample comand to build Project64, Release|x64 variant for MSVC 14 without XP support:
+Sample command to build Project64, Release|x64 variant for MSVC 14 without XP support:
 ```
 MSBuild.exe Project64.sln /p:Platform=x64 /p:Configuration=Release /p:PlatformToolset=v140
 ```
@@ -30,7 +30,7 @@ MSBuild.exe Project64.sln /p:Platform=x64 /p:Configuration=Release /p:PlatformTo
 # Visual Studio IDE (2010 and later)
 1. Open the solution in Visual Studio (Project64.sln)
 2. Right-click the solution in the Project panel, and choose Build.<br/>
-   Alternatively, type SHIFT+CTRL+B
+   Alternatively, press SHIFT+CTRL+B
 
 Notes:
 * In the Build toolbar, you can select the Platform and Configuration needed.

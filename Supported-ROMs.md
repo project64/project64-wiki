@@ -4,6 +4,8 @@
 
 * Z64
 * V64
+* N64
+* BIN
 
 ## Supported ROMs
 

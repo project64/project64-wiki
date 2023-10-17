@@ -2,9 +2,9 @@ Currently, Project64 builds and runs only under Windows platforms.
 
 # Requirements
 * Operating System
-  * Microsoft Windows 10, 8.1, 8, 7, Vista, XP (and server equivalents).
+  * Microsoft Windows 11, 10, 8.1, 8, 7, Vista, XP (and server equivalents).
 * Compiler collection
-  * Microsoft Visual C++ [2015 (recommended)](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx), 2013, 2012, 2010, 2008.
+  * Microsoft Visual C++ [2015-2022 (recommended)](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx), 2013, 2012, 2010, 2008.
 
 # Command line
 In a command prompt enter:
